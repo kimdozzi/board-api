@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3307/algodb?useUnicode=true&charaterEncoding=utf-8
+    username: kimdozzi
+    password: 1234
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  # Swagger2 사용을 위한 코드
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
